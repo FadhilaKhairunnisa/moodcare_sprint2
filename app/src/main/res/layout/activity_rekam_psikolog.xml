@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.example.moodcare_sprint2.RekamPsikolog">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekam Psikologis"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/namalengkapText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nama Lengkap: John Doe"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lahirText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tanggal Lahir: 13 Juli 1993"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/umurText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Umur: 30 Tahun"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/diagnosa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/borderbg"
+        android:layout_marginTop="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/diagnosatext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diagnosa: Gangguan Kecemasan"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/isidiagnosatext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                android:textSize="16sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/penanganantext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penanganan:"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/isipenanganantext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                android:textSize="16sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/bcatext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jika kamu percaya pada dirimu sendiri, kamu akan mampu melakukan hal-hal yang luar biasa. - Johann Wolfgang von Goethe"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/btnpress"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bcaicon"
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:src="@drawable/dana"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DANA"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textNomorVA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Virtual Account: 1234567891"
+        android:textSize="19sp"
+        android:layout_margin="19dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textmobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Langkah transfer via E-Wallet Dana"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:background="@color/lylac"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="7dp"/>
+
+        <TextView
+            android:id="@+id/textlangkahmobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Buka aplikasi mobile Dana
+                        \n2. Pilih menu Kirim
+                        \n3. Pilih menu Kirim ke Teman
+                        \n4. Masukkan nomor tujuan
+                        \n5. Masukkan jumlah transfer
+                        \n6. Klik Tombol Lanjutkan
+                        \n7. Masukkan Sandi/Konfirmasi transfer
+                        \n8. Selesaikan transfer"
+            android:textSize="17dp"
+            android:layout_marginStart="19dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

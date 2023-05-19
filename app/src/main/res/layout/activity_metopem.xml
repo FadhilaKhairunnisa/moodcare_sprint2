@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.example.moodcare_sprint2.metopem">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metode Pembayaran"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+        <LinearLayout
+            android:id="@+id/bcapayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borderbg"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/bcaicon"
+                android:layout_width="35dp"
+                android:layout_height="48dp"
+                android:src="@drawable/bcalogo"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/bcatext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank BCA"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bripayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borderbg"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/briicon"
+                android:layout_width="35dp"
+                android:layout_height="48dp"
+                android:src="@drawable/brilogo"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/britext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank BRI"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mandiripayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borderbg"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/mandiricon"
+                android:layout_width="35dp"
+                android:layout_height="48dp"
+                android:src="@drawable/mandiri"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/mandiritext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank Mandiri"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linkajapayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borderbg"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/linkajaicon"
+                android:layout_width="35dp"
+                android:layout_height="48dp"
+                android:src="@drawable/image5"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/linkajatext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LinkAja"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/danapayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borderbg"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/danaicon"
+                android:layout_width="35dp"
+                android:layout_height="48dp"
+                android:src="@drawable/dana"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/danatext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DANA"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"/>
+        </LinearLayout>
+
+</LinearLayout>
